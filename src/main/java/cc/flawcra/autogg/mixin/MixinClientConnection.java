@@ -1,8 +1,8 @@
-package cc.modlabs.autogg.mixin;
+package cc.flawcra.autogg.mixin;
 
-import cc.modlabs.autogg.Autogg;
-import cc.modlabs.autogg.ServerConfig;
-import cc.modlabs.autogg.chat.EventDetector;
+import cc.flawcra.autogg.Autogg;
+import cc.flawcra.autogg.ServerConfig;
+import cc.flawcra.autogg.chat.EventDetector;
 import net.minecraft.network.ClientConnection;
 import net.minecraft.text.Text;
 import org.spongepowered.asm.mixin.Mixin;

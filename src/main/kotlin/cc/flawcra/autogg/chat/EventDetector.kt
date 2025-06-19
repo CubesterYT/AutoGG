@@ -1,7 +1,7 @@
-package cc.modlabs.autogg.chat
+package cc.flawcra.autogg.chat
 
-import cc.modlabs.autogg.Autogg
-import cc.modlabs.autogg.ServerConfig
+import cc.flawcra.autogg.Autogg
+import cc.flawcra.autogg.ServerConfig
 
 class EventDetector {
     private val serverMessageEvents: MutableMap<ServerConfig, MutableMap<String, Event>> = mutableMapOf()

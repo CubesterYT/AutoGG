@@ -1,11 +1,12 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import java.time.Instant
 import java.util.*
 
 plugins {
     id("com.modrinth.minotaur") version "2.+"
-    kotlin("jvm") version "2.0.21"
-    id("fabric-loom") version "1.8.9"
+    kotlin("jvm") version "2.0.0"
+    id("fabric-loom") version "1.7.1"
     id("maven-publish")
 }
 
@@ -31,7 +32,7 @@ java {
 
 
 repositories {
-    maven("https://nexus.modlabs.cc/repository/maven-mirrors/")
+    maven("https://nexus.flawcra.cc/repository/maven-mirrors/")
 }
 
 dependencies {
@@ -44,7 +45,7 @@ dependencies {
     // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation("net.fabricmc.fabric-api:fabric-api:${project.property("fabric_version")}")
 
-    modLocalRuntime("com.terraformersmc", "modmenu", project.property("modmenu_version") as String)
+    modLocalRuntime("com.terraformersmc", "modmenu", "11.0.1")
 }
 
 modrinth {
