@@ -1,8 +1,8 @@
-package cc.flawcra.autogg.mixin;
+package com.cubester.autogg.mixin;
 
-import cc.flawcra.autogg.Autogg;
-import cc.flawcra.autogg.ServerConfig;
-import cc.flawcra.autogg.chat.EventDetector;
+import com.cubester.autogg.Autogg;
+import com.cubester.autogg.ServerConfig;
+import com.cubester.autogg.chat.EventDetector;
 import net.minecraft.network.ClientConnection;
 import net.minecraft.text.Text;
 import org.spongepowered.asm.mixin.Mixin;

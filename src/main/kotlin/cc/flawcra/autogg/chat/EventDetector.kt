@@ -1,7 +1,7 @@
-package cc.flawcra.autogg.chat
+package com.cubester.autogg.chat
 
-import cc.flawcra.autogg.Autogg
-import cc.flawcra.autogg.ServerConfig
+import com.cubester.autogg.Autogg
+import com.cubester.autogg.ServerConfig
 
 class EventDetector {
     private val serverMessageEvents: MutableMap<ServerConfig, MutableMap<String, Event>> = mutableMapOf()

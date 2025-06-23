@@ -1,6 +1,6 @@
-package cc.flawcra.autogg
+package com.cubester.autogg
 
-import cc.flawcra.autogg.chat.EventDetector
+import com.cubester.autogg.chat.EventDetector
 import net.fabricmc.api.ClientModInitializer
 
 class Autogg : ClientModInitializer {

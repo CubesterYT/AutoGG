@@ -1,4 +1,4 @@
-package cc.flawcra.autogg
+package com.cubester.autogg
 
 enum class ServerConfig(val ip: String) {
     HYPIXEL("hypixel.net"),

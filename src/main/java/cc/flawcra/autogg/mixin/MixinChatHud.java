@@ -1,6 +1,6 @@
-package cc.flawcra.autogg.mixin;
+package com.cubester.autogg.mixin;
 
-import cc.flawcra.autogg.Autogg;
+import com.cubester.autogg.Autogg;
 import net.minecraft.client.gui.hud.ChatHud;
 import net.minecraft.client.gui.hud.MessageIndicator;
 import net.minecraft.network.message.MessageSignatureData;
@@ -24,7 +24,7 @@ public class MixinChatHud {
             if (System.currentTimeMillis() - lastTime <= 3000) return;
             lastTime = ((int)System.currentTimeMillis());
 
-            Autogg.INSTANCE.client.sendMessage("gg");
+            Autogg.INSTANCE.client.sendMessage("/ac gg");
         }
     }
 }

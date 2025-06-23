@@ -32,7 +32,7 @@ java {
 
 
 repositories {
-    maven("https://nexus.flawcra.cc/repository/maven-mirrors/")
+    maven("https://nexus.modlabs.cc/repository/maven-mirrors/")
 }
 
 dependencies {

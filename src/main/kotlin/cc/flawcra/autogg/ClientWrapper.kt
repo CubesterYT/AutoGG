@@ -1,4 +1,4 @@
-package cc.flawcra.autogg
+package com.cubester.autogg
 
 import net.minecraft.client.MinecraftClient;
 
